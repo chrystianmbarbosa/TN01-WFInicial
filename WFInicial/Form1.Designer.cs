@@ -28,54 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
+            lblNota1 = new Label();
+            txtNota1 = new TextBox();
+            btnCalcular = new Button();
+            txtNota2 = new TextBox();
+            lblNota2 = new Label();
             SuspendLayout();
             // 
-            // label1
+            // lblNota1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(51, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            lblNota1.AutoSize = true;
+            lblNota1.Location = new Point(58, 37);
+            lblNota1.Name = "lblNota1";
+            lblNota1.Size = new Size(57, 20);
+            lblNota1.TabIndex = 0;
+            lblNota1.Text = "Nota 1:";
             // 
-            // textBox1
+            // txtNota1
             // 
-            textBox1.Location = new Point(51, 68);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            txtNota1.Location = new Point(117, 33);
+            txtNota1.Margin = new Padding(3, 4, 3, 4);
+            txtNota1.Name = "txtNota1";
+            txtNota1.Size = new Size(114, 27);
+            txtNota1.TabIndex = 1;
             // 
-            // button1
+            // btnCalcular
             // 
-            button1.Location = new Point(51, 108);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCalcular.Location = new Point(117, 143);
+            btnCalcular.Margin = new Padding(3, 4, 3, 4);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(114, 31);
+            btnCalcular.TabIndex = 2;
+            btnCalcular.Text = "Calcular Média";
+            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
+            // 
+            // txtNota2
+            // 
+            txtNota2.Location = new Point(117, 84);
+            txtNota2.Margin = new Padding(3, 4, 3, 4);
+            txtNota2.Name = "txtNota2";
+            txtNota2.Size = new Size(114, 27);
+            txtNota2.TabIndex = 4;
+            // 
+            // lblNota2
+            // 
+            lblNota2.AutoSize = true;
+            lblNota2.Location = new Point(58, 88);
+            lblNota2.Name = "lblNota2";
+            lblNota2.Size = new Size(57, 20);
+            lblNota2.TabIndex = 3;
+            lblNota2.Text = "Nota 2:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            ClientSize = new Size(320, 221);
+            Controls.Add(txtNota2);
+            Controls.Add(lblNota2);
+            Controls.Add(btnCalcular);
+            Controls.Add(txtNota1);
+            Controls.Add(lblNota1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calcular Média das Notas";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private TextBox textBox1;
-        private Button button1;
+        private Label lblNota1;
+        private TextBox txtNota1;
+        private Button btnCalcular;
+        private TextBox txtNota2;
+        private Label lblNota2;
     }
 }
