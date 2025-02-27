@@ -1,6 +1,6 @@
 ﻿namespace WFInicial
 {
-    partial class Form1
+    partial class FormEx1
     {
         /// <summary>
         ///  Required designer variable.
