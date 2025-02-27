@@ -14,17 +14,14 @@
             if (media >= 7)
             {
                 Console.WriteLine("Aprovado!");
-                Console.WriteLine("Aprovado!");
 
             }
             else if (media < 5)
             {
                 Console.WriteLine("Reprovado!");
-                Console.WriteLine("Reprovado!");
             }
             else
             {
-                Console.WriteLine("Recuperação!");
                 Console.WriteLine("Recuperação!");
             }
         }
