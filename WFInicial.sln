@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx1", "ConsoleRevisaoAula\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx2", "CEx2\CEx2.csproj", "{665FDAD9-78F7-4849-AD87-3E1893BB8B0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx3", "CEx3\CEx3.csproj", "{109854AF-D534-4294-968E-DA3097F2F937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx3", "CEx3\CEx3.csproj", "{109854AF-D534-4294-968E-DA3097F2F937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx4", "CEx4\CEx4.csproj", "{0675C017-E5B3-45A6-8BD8-1218D0DE8A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{109854AF-D534-4294-968E-DA3097F2F937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{109854AF-D534-4294-968E-DA3097F2F937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{109854AF-D534-4294-968E-DA3097F2F937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0675C017-E5B3-45A6-8BD8-1218D0DE8A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0675C017-E5B3-45A6-8BD8-1218D0DE8A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0675C017-E5B3-45A6-8BD8-1218D0DE8A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0675C017-E5B3-45A6-8BD8-1218D0DE8A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
