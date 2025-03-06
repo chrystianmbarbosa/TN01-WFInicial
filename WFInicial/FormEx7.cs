@@ -37,7 +37,7 @@ namespace WFInicial
                 int pos_menor = Array.IndexOf(ListaValoresProdutos, menor);
                 string mensagem =
                     $"O Produto mais Barato é {ListaNomeProdutos[pos_menor]} " +
-                    $"de valor R$ {menor:D2}";
+                    $"de valor R$ {menor:F2}";
 
                 MessageBox.Show(mensagem);
             }
