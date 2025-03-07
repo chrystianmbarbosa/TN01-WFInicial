@@ -15,9 +15,9 @@ namespace WFInicial
             if (Nome == Senha)
             {
                 MessageBox.Show(
-                    "A senha e usuário não podem ser iguais!", 
+                    "A senha e usuário não podem ser iguais!",
                     "Erro",
-                    MessageBoxButtons.OK, 
+                    MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
                 return false;
 

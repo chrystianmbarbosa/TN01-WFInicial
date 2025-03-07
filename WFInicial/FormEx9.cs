@@ -34,9 +34,9 @@ namespace WFInicial
             {
                 MessageBox.Show("Bem Vindo ao Sistema!",
                     "Sucesso!",
-                    MessageBoxButtons.OK, 
+                    MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
-                
+
                 //Fecha a Janela do Fornulário
                 this.Dispose();
             }
