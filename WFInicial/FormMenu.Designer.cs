@@ -139,6 +139,7 @@
             btnEx11.TabIndex = 10;
             btnEx11.Text = "Exercício 11";
             btnEx11.UseVisualStyleBackColor = true;
+            btnEx11.Click += btnEx11_Click;
             // 
             // btnEx10
             // 
